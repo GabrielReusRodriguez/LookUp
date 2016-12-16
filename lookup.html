@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LookUp: Una aplicación de consulta de las UPs que ofrecen servicio al CatSalut</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+        <!--Importo las clases y las variables globales -->
+        <script src="./js/LookUp_UPDataManager.js"></script>
+        <script src="./js/LookUp_EventHandler.js"></script>
+        <script src="./js/LookUp_AppStatus.js"></script>
+        <!--Inicializo la app -->
+        
+        <script src="./js/LookUp_initVars.js"></script>
+        <script src="./js/LookUp_init.js"></script>
+        
+        <link href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" rel="stylesheet" />
+        <link href="./css/lookUp_generic.css" rel="stylesheet" />
+        
+    </head>
+    <body>
+        <input type="hidden" id="LookUp_UpsData" name="LookUp_UpsData"/>
+        body
+        
+        <table id="myTable" class="display" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>codi EP</th>
+                <th>descripció EP</th>
+                <th>codi UP</th>
+                <th>descripció UP</th>
+                <th>codi tipus UP</th>
+                <th>descripció tipus UP</th>
+                <th>codi subtipus UP</th>
+                <th>descripció subtipus UP</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>codi EP</th>
+                <th>descripció EP</th>
+                <th>codi UP</th>
+                <th>descripció UP</th>
+                <th>codi tipus UP</th>
+                <th>descripció tipus UP</th>
+                <th>codi subtipus UP</th>
+                <th>descripció subtipus UP</th>
+            </tr>
+        </tfoot>
+        <tbody id="myTable_body">
+        </tbody>
+    </table>
+        <footer>
+            footer
+        </footer>
+    </body>
+</html>
