@@ -1,3 +1,5 @@
+"use strict";
+
 class LookUp_AppStatus{
   
     constructor(){

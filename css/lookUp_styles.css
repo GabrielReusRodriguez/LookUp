@@ -1,0 +1,38 @@
+#Cabecera{
+    font-size: xx-large;
+    text-align:  center;
+       
+}
+
+#myTable{
+    font-size: smaller;
+    
+}
+
+.visible{
+    display: visible;
+}
+
+.oculto{
+    display: none;
+}
+
+.ancho_completo{
+    width: 100%;
+}
+
+
+img.centrada{
+    display:block;
+    margin:0 auto 0 auto;
+}
+
+img.izquierda{
+    float:left;
+    clear:left;
+}
+
+img.derecha{
+    float:right;
+    clear:right;
+}

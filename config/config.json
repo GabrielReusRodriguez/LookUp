@@ -1,0 +1,18 @@
+{
+    "display_lengths"   :   [[10, 25, 50, -1], [10, 25, 50, "All"]],
+    "cataleg_file"      :   "./data/json/cataleg_up.json",
+    "table_lang_url"    :   "//cdn.datatables.net/plug-ins/1.10.13/i18n/Catalan.json",
+    "columnas_ocultas"  :    [
+                                {
+                                    "targets" : [ 4 ],
+                                    "visible" : false,
+                                    "searchable" :false
+                                },
+                                {
+                                    "targets" : [ 6 ],
+                                    "visible" : false,
+                                    "searchable" :false
+                                }
+                            ]
+    
+}

@@ -1,0 +1,23 @@
+CACHE MANIFEST
+# 20/12/2016 12:39
+lookup.html
+/js/LookUp_AppStatus.js
+/js/LookUp_EventHandler.js
+/js/LookUp_init.js
+/js/LookUp_globalVars.js
+/js/LookUp_UPDataManager.js
+/config/config.json
+/css/lookUp_generic.css
+/css/lookUp_styles.css
+/data/json/cataleg_up.json
+/img/loading.gif
+
+NETWORK:
+*
+
+
+#https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js
+#https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js
+#https://cdn.datatables.net/responsive/2.1.1/js/dataTables.responsive.min.js
+#https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css
+#https://cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css
