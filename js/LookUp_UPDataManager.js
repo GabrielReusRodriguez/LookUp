@@ -83,6 +83,10 @@ class LookUp_UPDataManager{
             'csvHtml5',
             'pdfHtml5'
     ],*/
+    /*
+                        buttons:[
+                                'copyHtml5'
+                            ],*/
                         /*init*/
                         
                         initComplete: function () {

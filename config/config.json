@@ -13,6 +13,7 @@
                                     "visible" : false,
                                     "searchable" :false
                                 }
-                            ]
-    
+                            ],
+    "lit_campos_cabecera"   :   ["codi EP","descripció EP","codi UP","descripció UP","codi tipus UP","descripció tipus UP","codi subtipus UP","descripció subtipus UP"]
+
 }
