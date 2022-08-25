@@ -1,0 +1,4 @@
+#Ficheros a ignorar en git
+/data/tmp/cataleg_up.zip
+/data/json/cataleg_up.json
+!/data/txt/delete.me

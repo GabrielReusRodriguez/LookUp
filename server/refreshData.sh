@@ -2,7 +2,8 @@
 
 echo "Inici"
 
-./server/fileGetter.sh UP
-./server/txt2Json.py -i cataleg_up
+./fileGetter.sh UP
+./parseTxt.awk ../web/data/txt/cataleg_up.txt > ../web/data/json/cataleg_up.json
+#./server/txt2Json.py -i cataleg_up
 
 echo "Final"

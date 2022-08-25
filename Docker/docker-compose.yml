@@ -1,0 +1,9 @@
+version: 1.0
+services:
+  web:
+    image: lookup
+    volumes:
+    - $PWD:/tmp
+    ports: 
+    - "80:80"
+
