@@ -1,4 +1,7 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
+
+
+HOME=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 if [ $# -ne 1 ]; then
     echo "El uso del programa es: fileGetter tipusDada"
@@ -8,7 +11,7 @@ fi
 tipoFichero=$1
 #nombreJson=$2
 
-dataFolder=../data
+dataFolder=${HOME}/../data
 
 nombreFicheroTxt="07-Cataleg Unitats proveidores.txt"
 
